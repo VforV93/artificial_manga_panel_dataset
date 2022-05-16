@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
     parser.add_argument("--create_page_metadata", "-pm", nargs=1, type=int)
     parser.add_argument("--render_pages", "-rp", action="store_true")
-    parser.add_argument("--generate_pages", "-gp", nargs=1, type=int)
+    parser.add_argument("--generate_pages", "-gp", nargs=1, type=int)  # default=[5]
     parser.add_argument("--dry", action="store_true", default=False)
     parser.add_argument("--run_tests", action="store_true")
 
